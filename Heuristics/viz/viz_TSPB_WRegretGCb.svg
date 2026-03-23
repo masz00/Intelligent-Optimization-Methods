@@ -1,0 +1,1136 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#EAEAEA"/>
+  <text x="40" y="20" font-family="monospace" font-size="14" fill="#111">
+    Funkcja celu: 16976 | Wierzcholki w cyklu: 165 / 200
+  </text>
+  <line x1="1382.95" y1="210.205" x2="1235.68" y2="214.807"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1235.68" y1="214.807" x2="1167.56" y2="195.478"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1167.56" y1="195.478" x2="1164.8" y2="284.302"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1164.8" y1="284.302" x2="1135.81" y2="284.302"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1135.81" y1="284.302" x2="1130.29" y2="382.791"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1130.29" y1="382.791" x2="1030.42" y2="510.735"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1030.42" y1="510.735" x2="856.908" y2="497.389"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="856.908" y1="497.389" x2="812.266" y2="462.871"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="812.266" y1="462.871" x2="710.555" y2="396.598"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="710.555" y1="396.598" x2="667.294" y2="372.206"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="667.294" y1="372.206" x2="694.447" y2="351.496"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="694.447" y1="351.496" x2="877.619" y2="275.098"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="877.619" y1="275.098" x2="908.454" y2="251.166"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="908.454" y1="251.166" x2="979.33" y2="254.387"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="979.33" y1="254.387" x2="998.659" y2="215.728"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="998.659" y1="215.728" x2="1012.93" y2="180.75"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1012.93" y1="180.75" x2="965.063" y2="133.807"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="965.063" y1="133.807" x2="947.114" y2="152.216"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="947.114" y1="152.216" x2="882.681" y2="219.41"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="882.681" y1="219.41" x2="827.454" y2="206.063"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="827.454" y1="206.063" x2="800.76" y2="168.324"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="800.76" y1="168.324" x2="785.573" y2="185.813"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="785.573" y1="185.813" x2="709.175" y2="212.506"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="709.175" y1="212.506" x2="641.981" y2="184.432"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="641.981" y1="184.432" x2="607.924" y2="199.62"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="607.924" y1="199.62" x2="538.429" y2="209.285"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="538.429" y1="209.285" x2="478.139" y2="326.643"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="478.139" y1="326.643" x2="490.565" y2="346.433"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="490.565" y1="346.433" x2="488.724" y2="360.7"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="488.724" y1="360.7" x2="415.088" y2="347.814"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="415.088" y1="347.814" x2="392.076" y2="364.382"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="392.076" y1="364.382" x2="409.105" y2="415.008"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="409.105" y1="415.008" x2="353.417" y2="237.359"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="353.417" y1="237.359" x2="311.536" y2="192.256"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="311.536" y1="192.256" x2="275.638" y2="228.154"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="275.638" y1="228.154" x2="245.723" y2="234.597"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="245.723" y1="234.597" x2="135.728" y2="195.478"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="135.728" y1="195.478" x2="91.5458" y2="255.768"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="91.5458" y1="255.768" x2="149.535" y2="424.212"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="149.535" y1="424.212" x2="98.4492" y2="447.684"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="98.4492" y1="447.684" x2="53.8069" y2="385.553"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="53.8069" y1="385.553" x2="55.1876" y2="468.394"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="55.1876" y1="468.394" x2="71.2956" y2="589.895"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="71.2956" y1="589.895" x2="40" y2="638.219"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="40" y1="638.219" x2="93.8469" y2="633.157"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="93.8469" y1="633.157" x2="167.024" y2="659.85"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="167.024" y1="659.85" x2="155.978" y2="662.151"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="155.978" y1="662.151" x2="186.813" y2="709.555"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="186.813" y1="709.555" x2="175.768" y2="742.231"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="175.768" y1="742.231" x2="115.018" y2="789.635"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="115.018" y1="789.635" x2="229.615" y2="789.175"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="229.615" y1="789.175" x2="242.041" y2="764.782"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="242.041" y1="764.782" x2="275.178" y2="782.271"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="275.178" y1="782.271" x2="305.553" y2="825.533"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="305.553" y1="825.533" x2="337.769" y2="925.863"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="337.769" y1="925.863" x2="346.053" y2="996.278"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="346.053" y1="996.278" x2="348.814" y2="1018.83"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="348.814" y1="1018.83" x2="399.44" y2="896.868"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="399.44" y1="896.868" x2="329.945" y2="809.885"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="329.945" y1="809.885" x2="340.53" y2="819.09"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="340.53" y1="819.09" x2="361.241" y2="818.629"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="361.241" y1="818.629" x2="332.246" y2="796.078"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="332.246" y1="796.078" x2="334.547" y2="733.027"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="334.547" y1="733.027" x2="411.866" y2="670.895"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="411.866" y1="670.895" x2="427.974" y2="635.458"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="427.974" y1="635.458" x2="428.434" y2="566.883"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="428.434" y1="566.883" x2="494.707" y2="540.19"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="494.707" y1="540.19" x2="499.31" y2="422.831"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="499.31" y1="422.831" x2="552.696" y2="447.224"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="552.696" y1="447.224" x2="593.197" y2="478.059"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="593.197" y1="478.059" x2="637.379" y2="467.014"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="637.379" y1="467.014" x2="773.147" y2="555.838"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="773.147" y1="555.838" x2="824.232" y2="573.787"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="824.232" y1="573.787" x2="915.358" y2="528.224"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="915.358" y1="528.224" x2="910.295" y2="574.707"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="910.295" y1="574.707" x2="918.579" y2="672.736"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="918.579" y1="672.736" x2="934.687" y2="729.805"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="934.687" y1="729.805" x2="886.823" y2="680.56"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="886.823" y1="680.56" x2="816.868" y2="680.56"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="816.868" y1="680.56" x2="775.908" y2="750.975"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="775.908" y1="750.975" x2="706.413" y2="859.59"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="706.413" y1="859.59" x2="640.14" y2="805.283"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="640.14" y1="805.283" x2="587.214" y2="928.164"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="587.214" y1="928.164" x2="526.923" y2="953.017"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="526.923" y1="953.017" x2="454.207" y2="1022.51"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="454.207" y1="1022.51" x2="450.985" y2="1038.16"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="450.985" y1="1038.16" x2="554.537" y2="983.392"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="554.537" y1="983.392" x2="559.6" y2="1011.01"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="559.6" y1="1011.01" x2="569.265" y2="999.96"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="569.265" y1="999.96" x2="692.606" y2="970.505"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="692.606" y1="970.505" x2="838.039" y2="984.312"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="838.039" y1="984.312" x2="853.687" y2="982.011"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="853.687" y1="982.011" x2="893.267" y2="984.772"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="893.267" y1="984.772" x2="897.869" y2="831.056"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="897.869" y1="831.056" x2="1007.86" y2="861.891"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1007.86" y1="861.891" x2="961.841" y2="808.044"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="961.841" y1="808.044" x2="977.949" y2="725.203"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="977.949" y1="725.203" x2="1044.22" y2="699.43"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1044.22" y1="699.43" x2="955.858" y2="645.123"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="955.858" y1="645.123" x2="949.415" y2="586.213"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="949.415" y1="586.213" x2="1020.29" y2="543.872"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1020.29" y1="543.872" x2="1049.74" y2="546.633"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1049.74" y1="546.633" x2="1074.14" y2="534.207"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1074.14" y1="534.207" x2="1087.94" y2="514.417"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1087.94" y1="514.417" x2="1104.05" y2="541.571"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1104.05" y1="541.571" x2="1115.56" y2="637.759"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1115.56" y1="637.759" x2="1124.76" y2="713.697"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1124.76" y1="713.697" x2="1125.22" y2="795.158"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1125.22" y1="795.158" x2="1077.36" y2="804.822"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1077.36" y1="804.822" x2="1089.32" y2="906.533"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1089.32" y1="906.533" x2="1168.02" y2="830.135"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1168.02" y1="830.135" x2="1289.52" y2="877.999"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1289.52" y1="877.999" x2="1351.2" y2="884.902"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1351.2" y1="884.902" x2="1455.67" y2="899.63"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1455.67" y1="899.63" x2="1483.74" y2="985.693"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1483.74" y1="985.693" x2="1619.05" y2="1029.87"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1619.05" y1="1029.87" x2="1618.13" y2="924.942"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1618.13" y1="924.942" x2="1529.3" y2="964.062"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1529.3" y1="964.062" x2="1509.97" y2="937.369"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1509.97" y1="937.369" x2="1530.69" y2="896.408"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1530.69" y1="896.408" x2="1547.71" y2="872.476"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1547.71" y1="872.476" x2="1569.34" y2="822.311"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1569.34" y1="822.311" x2="1620.89" y2="772.146"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1620.89" y1="772.146" x2="1573.49" y2="776.748"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1573.49" y1="776.748" x2="1545.87" y2="784.112"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1545.87" y1="784.112" x2="1549.09" y2="773.067"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1549.09" y1="773.067" x2="1415.63" y2="810.805"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1415.63" y1="810.805" x2="1297.81" y2="727.964"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1297.81" y1="727.964" x2="1286.76" y2="651.106"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1286.76" y1="651.106" x2="1282.62" y2="628.554"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1282.62" y1="628.554" x2="1376.05" y2="632.696"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1376.05" y1="632.696" x2="1388.47" y2="587.594"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1388.47" y1="587.594" x2="1456.13" y2="569.185"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1456.13" y1="569.185" x2="1515.5" y2="573.327"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1515.5" y1="573.327" x2="1595.58" y2="599.1"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1595.58" y1="599.1" x2="1661.39" y2="530.985"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1661.39" y1="530.985" x2="1780.59" y2="600.94"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1780.59" y1="600.94" x2="1810.05" y2="584.832"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1810.05" y1="584.832" x2="1879.54" y2="539.73"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1879.54" y1="539.73" x2="1860.67" y2="403.502"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1860.67" y1="403.502" x2="1854.23" y2="405.343"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1854.23" y1="405.343" x2="1846.86" y2="426.973"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1846.86" y1="426.973" x2="1764.48" y2="552.156"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1764.48" y1="552.156" x2="1704.65" y2="481.741"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1704.65" y1="481.741" x2="1631.94" y2="458.729"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1631.94" y1="458.729" x2="1590.06" y2="474.377"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1590.06" y1="474.377" x2="1515.96" y2="479.44"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1515.96" y1="479.44" x2="1403.2" y2="504.292"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1403.2" y1="504.292" x2="1398.6" y2="466.093"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1398.6" y1="466.093" x2="1400.9" y2="432.496"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1400.9" y1="432.496" x2="1472.7" y2="353.337"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1472.7" y1="353.337" x2="1546.79" y2="325.263"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1546.79" y1="325.263" x2="1551.86" y2="265.433"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1551.86" y1="265.433" x2="1625.49" y2="258.069"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1625.49" y1="258.069" x2="1651.27" y2="333.087"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1651.27" y1="333.087" x2="1799.46" y2="317.439"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1799.46" y1="317.439" x2="1870.34" y2="231.836"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1870.34" y1="231.836" x2="1861.59" y2="203.302"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1861.59" y1="203.302" x2="1756.2" y2="212.966"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1756.2" y1="212.966" x2="1706.95" y2="204.682"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1706.95" y1="204.682" x2="1642.98" y2="165.563"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1642.98" y1="165.563" x2="1639.76" y2="159.58"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1639.76" y1="159.58" x2="1598.34" y2="147.614"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1598.34" y1="147.614" x2="1574.87" y2="155.438"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="1574.87" y1="155.438" x2="1382.95" y2="210.205"
+        stroke="#0066CC" stroke-width="2" stroke-dasharray="5,3"/>
+  <circle cx="1074.14" cy="534.207" r="6.64155"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 0 (Waga: 150)</title>
+  </circle>
+  <circle cx="167.024" cy="659.85" r="7.37475"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 1 (Waga: 180)</title>
+  </circle>
+  <circle cx="710.555" cy="396.598" r="12.5316"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 2 (Waga: 391)</title>
+  </circle>
+  <circle cx="1012.93" cy="180.75" r="10.4786"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 3 (Waga: 307)</title>
+  </circle>
+  <circle cx="1574.87" cy="155.438" r="13.8024"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 4 (Waga: 443)</title>
+  </circle>
+  <circle cx="587.214" cy="928.164" r="7.44807"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 5 (Waga: 183)</title>
+  </circle>
+  <circle cx="709.175" cy="212.506" r="5.56619"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 6 (Waga: 106)</title>
+  </circle>
+  <circle cx="692.606" cy="970.505" r="10.2587"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 7 (Waga: 298)</title>
+  </circle>
+  <circle cx="934.687" cy="729.805" r="14.6823"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 8 (Waga: 479)</title>
+  </circle>
+  <circle cx="1651.27" cy="333.087" r="8.84114"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 9 (Waga: 240)</title>
+  </circle>
+  <circle cx="311.536" cy="192.256" r="6.93483"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 10 (Waga: 162)</title>
+  </circle>
+  <circle cx="856.908" cy="497.389" r="13.5092"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 11 (Waga: 431)</title>
+  </circle>
+  <circle cx="1049.74" cy="546.633" r="9.84318"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 12 (Waga: 281)</title>
+  </circle>
+  <circle cx="908.454" cy="251.166" r="8.67006"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 13 (Waga: 233)</title>
+  </circle>
+  <circle cx="1125.22" cy="795.158" r="4.93075"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 14 (Waga: 80)</title>
+  </circle>
+  <circle cx="998.659" cy="215.728" r="10.8941"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 15 (Waga: 324)</title>
+  </circle>
+  <circle cx="93.8469" cy="633.157" r="10.332"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 16 (Waga: 301)</title>
+  </circle>
+  <circle cx="135.728" cy="195.478" r="13.3625"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 17 (Waga: 425)</title>
+  </circle>
+  <circle cx="1398.6" cy="466.093" r="5.41955"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 18 (Waga: 100)</title>
+  </circle>
+  <circle cx="411.866" cy="670.895" r="8.6945"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 19 (Waga: 234)</title>
+  </circle>
+  <circle cx="1756.2" cy="212.966" r="4.71079"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 20 (Waga: 71)</title>
+  </circle>
+  <circle cx="876.698" cy="842.561" r="3.58656"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 21 (Waga: 25)</title>
+  </circle>
+  <circle cx="1704.65" cy="481.741" r="13.9002"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 22 (Waga: 447)</title>
+  </circle>
+  <circle cx="1861.59" cy="203.302" r="7.79022"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 23 (Waga: 197)</title>
+  </circle>
+  <circle cx="186.813" cy="709.555" r="8.98778"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 24 (Waga: 246)</title>
+  </circle>
+  <circle cx="641.521" cy="674.117" r="14.0468"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 25 (Waga: 453)</title>
+  </circle>
+  <circle cx="1547.71" cy="872.476" r="14.2912"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 26 (Waga: 463)</title>
+  </circle>
+  <circle cx="40" cy="638.219" r="6.93483"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 27 (Waga: 162)</title>
+  </circle>
+  <circle cx="1642.98" cy="165.563" r="3.46436"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 28 (Waga: 20)</title>
+  </circle>
+  <circle cx="1030.42" cy="510.735" r="9.81874"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 29 (Waga: 280)</title>
+  </circle>
+  <circle cx="229.615" cy="789.175" r="9.94094"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 30 (Waga: 285)</title>
+  </circle>
+  <circle cx="329.945" cy="809.885" r="13.558"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 31 (Waga: 433)</title>
+  </circle>
+  <circle cx="149.535" cy="424.212" r="6.05499"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 32 (Waga: 126)</title>
+  </circle>
+  <circle cx="910.295" cy="574.707" r="7.86354"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 33 (Waga: 200)</title>
+  </circle>
+  <circle cx="1343.37" cy="405.803" r="8.03462"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 34 (Waga: 207)</title>
+  </circle>
+  <circle cx="1104.05" cy="541.571" r="13.9735"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 35 (Waga: 450)</title>
+  </circle>
+  <circle cx="810.885" cy="1009.16" r="3.04888"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 36 (Waga: 3)</title>
+  </circle>
+  <circle cx="1115.56" cy="637.759" r="6.07943"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 37 (Waga: 127)</title>
+  </circle>
+  <circle cx="71.2956" cy="589.895" r="8.9389"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 38 (Waga: 244)</title>
+  </circle>
+  <circle cx="1020.29" cy="543.872" r="5.39511"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 39 (Waga: 99)</title>
+  </circle>
+  <circle cx="42.3012" cy="169.705" r="9.03666"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 40 (Waga: 248)</title>
+  </circle>
+  <circle cx="1124.76" cy="713.697" r="11.4562"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 41 (Waga: 347)</title>
+  </circle>
+  <circle cx="115.018" cy="789.635" r="9.6721"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 42 (Waga: 274)</title>
+  </circle>
+  <circle cx="800.3" cy="358.859" r="4.97963"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 43 (Waga: 82)</title>
+  </circle>
+  <circle cx="245.723" cy="234.597" r="6.83707"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 44 (Waga: 158)</title>
+  </circle>
+  <circle cx="526.923" cy="953.017" r="15"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 45 (Waga: 492)</title>
+  </circle>
+  <circle cx="450.985" cy="1038.16" r="14.9756"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 46 (Waga: 491)</title>
+  </circle>
+  <circle cx="1837.2" cy="351.036" r="3.4888"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 47 (Waga: 21)</title>
+  </circle>
+  <circle cx="1784.73" cy="776.748" r="8.64562"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 48 (Waga: 232)</title>
+  </circle>
+  <circle cx="915.358" cy="528.224" r="13.6314"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 49 (Waga: 436)</title>
+  </circle>
+  <circle cx="1077.36" cy="804.822" r="5.95723"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 50 (Waga: 122)</title>
+  </circle>
+  <circle cx="499.31" cy="422.831" r="10.8941"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 51 (Waga: 324)</title>
+  </circle>
+  <circle cx="1780.59" cy="600.94" r="9.03666"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 52 (Waga: 248)</title>
+  </circle>
+  <circle cx="1382.95" cy="210.205" r="11.0163"
+          fill="#32CD32" stroke="#006400" stroke-width="3">
+    <title>Wezel 53 (Waga: 329)</title>
+  </circle>
+  <circle cx="332.246" cy="796.078" r="11.0163"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 54 (Waga: 329)</title>
+  </circle>
+  <circle cx="1400.9" cy="432.496" r="13.558"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 55 (Waga: 433)</title>
+  </circle>
+  <circle cx="918.579" cy="672.736" r="13.2159"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 56 (Waga: 419)</title>
+  </circle>
+  <circle cx="1879.54" cy="539.73" r="14.8534"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 57 (Waga: 486)</title>
+  </circle>
+  <circle cx="1007.86" cy="861.891" r="12.9226"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 58 (Waga: 407)</title>
+  </circle>
+  <circle cx="1706.95" cy="204.682" r="13.167"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 59 (Waga: 417)</title>
+  </circle>
+  <circle cx="1870.34" cy="231.836" r="8.8167"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 60 (Waga: 239)</title>
+  </circle>
+  <circle cx="838.039" cy="984.312" r="7.98574"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 61 (Waga: 205)</title>
+  </circle>
+  <circle cx="1403.2" cy="504.292" r="12.5071"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 62 (Waga: 390)</title>
+  </circle>
+  <circle cx="53.8069" cy="385.553" r="9.10998"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 63 (Waga: 251)</title>
+  </circle>
+  <circle cx="1519.64" cy="678.719" r="4.31976"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 64 (Waga: 55)</title>
+  </circle>
+  <circle cx="800.76" cy="168.324" r="7.42363"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 65 (Waga: 182)</title>
+  </circle>
+  <circle cx="1846.86" cy="426.973" r="9.69654"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 66 (Waga: 275)</title>
+  </circle>
+  <circle cx="490.565" cy="346.433" r="7.79022"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 67 (Waga: 197)</title>
+  </circle>
+  <circle cx="977.949" cy="725.203" r="11.3829"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 68 (Waga: 344)</title>
+  </circle>
+  <circle cx="1130.29" cy="382.791" r="9.96538"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 69 (Waga: 286)</title>
+  </circle>
+  <circle cx="965.063" cy="133.807" r="9.62322"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 70 (Waga: 272)</title>
+  </circle>
+  <circle cx="478.139" cy="326.643" r="7.79022"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 71 (Waga: 197)</title>
+  </circle>
+  <circle cx="139.87" cy="224.472" r="3.04888"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 72 (Waga: 3)</title>
+  </circle>
+  <circle cx="361.241" cy="818.629" r="8.5723"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 73 (Waga: 229)</title>
+  </circle>
+  <circle cx="637.379" cy="467.014" r="4.68635"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 74 (Waga: 70)</title>
+  </circle>
+  <circle cx="1758.5" cy="995.358" r="10.8697"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 75 (Waga: 323)</title>
+  </circle>
+  <circle cx="1736.41" cy="869.715" r="5.56619"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 76 (Waga: 106)</title>
+  </circle>
+  <circle cx="1089.32" cy="906.533" r="12.3116"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 77 (Waga: 382)</title>
+  </circle>
+  <circle cx="569.265" cy="999.96" r="14.5845"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 78 (Waga: 475)</title>
+  </circle>
+  <circle cx="853.687" cy="982.011" r="12.6782"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 79 (Waga: 397)</title>
+  </circle>
+  <circle cx="348.814" cy="1018.83" r="6.78819"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 80 (Waga: 156)</title>
+  </circle>
+  <circle cx="1168.02" cy="830.135" r="5.76171"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 81 (Waga: 114)</title>
+  </circle>
+  <circle cx="961.841" cy="808.044" r="12.8493"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 82 (Waga: 404)</title>
+  </circle>
+  <circle cx="1426.21" cy="470.695" r="3.3666"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 83 (Waga: 16)</title>
+  </circle>
+  <circle cx="1119.24" cy="123.682" r="7.27699"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 84 (Waga: 176)</title>
+  </circle>
+  <circle cx="667.294" cy="372.206" r="5.54175"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 85 (Waga: 105)</title>
+  </circle>
+  <circle cx="1595.58" cy="599.1" r="9.52546"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 86 (Waga: 268)</title>
+  </circle>
+  <circle cx="897.869" cy="831.056" r="13.2159"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 87 (Waga: 419)</title>
+  </circle>
+  <circle cx="1573.49" cy="776.748" r="12.2383"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 88 (Waga: 379)</title>
+  </circle>
+  <circle cx="1509.97" cy="937.369" r="14.7556"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 89 (Waga: 482)</title>
+  </circle>
+  <circle cx="392.076" cy="364.382" r="12.6049"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 90 (Waga: 394)</title>
+  </circle>
+  <circle cx="893.267" cy="984.772" r="9.40326"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 91 (Waga: 263)</title>
+  </circle>
+  <circle cx="55.1876" cy="468.394" r="4.12424"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 92 (Waga: 47)</title>
+  </circle>
+  <circle cx="1875.86" cy="929.085" r="3.75764"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 93 (Waga: 32)</title>
+  </circle>
+  <circle cx="1854.23" cy="405.343" r="3.56212"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 94 (Waga: 24)</title>
+  </circle>
+  <circle cx="1590.06" cy="474.377" r="10.3809"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 95 (Waga: 303)</title>
+  </circle>
+  <circle cx="117.319" cy="397.059" r="4.00204"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 96 (Waga: 42)</title>
+  </circle>
+  <circle cx="1121.54" cy="959.46" r="5.93279"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 97 (Waga: 121)</title>
+  </circle>
+  <circle cx="552.696" cy="447.224" r="9.57434"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 98 (Waga: 270)</title>
+  </circle>
+  <circle cx="1689.46" cy="461.491" r="3"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 99 (Waga: 1)</title>
+  </circle>
+  <circle cx="91.5458" cy="255.768" r="6.86151"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 100 (Waga: 159)</title>
+  </circle>
+  <circle cx="1639.76" cy="159.58" r="7.30143"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 101 (Waga: 177)</title>
+  </circle>
+  <circle cx="98.4492" cy="447.684" r="10.3809"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 102 (Waga: 303)</title>
+  </circle>
+  <circle cx="1530.69" cy="896.408" r="13.7291"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 103 (Waga: 440)</title>
+  </circle>
+  <circle cx="886.823" cy="680.56" r="8.86558"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 104 (Waga: 241)</title>
+  </circle>
+  <circle cx="337.769" cy="925.863" r="10.8208"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 105 (Waga: 321)</title>
+  </circle>
+  <circle cx="1376.05" cy="632.696" r="4.44196"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 106 (Waga: 60)</title>
+  </circle>
+  <circle cx="72.6763" cy="189.035" r="3"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 107 (Waga: 1)</title>
+  </circle>
+  <circle cx="98.4492" cy="1035.86" r="8.35234"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 108 (Waga: 220)</title>
+  </circle>
+  <circle cx="1087.94" cy="514.417" r="9.20774"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 109 (Waga: 255)</title>
+  </circle>
+  <circle cx="1515.5" cy="573.327" r="8.91446"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 110 (Waga: 243)</title>
+  </circle>
+  <circle cx="1044.22" cy="699.43" r="8.37678"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 111 (Waga: 221)</title>
+  </circle>
+  <circle cx="427.974" cy="635.458" r="7.86354"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 112 (Waga: 200)</title>
+  </circle>
+  <circle cx="1569.34" cy="822.311" r="3.53768"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 113 (Waga: 23)</title>
+  </circle>
+  <circle cx="1618.13" cy="924.942" r="8.0835"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 114 (Waga: 209)</title>
+  </circle>
+  <circle cx="382.871" cy="195.938" r="5.71283"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 115 (Waga: 112)</title>
+  </circle>
+  <circle cx="494.707" cy="540.19" r="6.95927"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 116 (Waga: 163)</title>
+  </circle>
+  <circle cx="275.178" cy="782.271" r="8.40122"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 117 (Waga: 222)</title>
+  </circle>
+  <circle cx="593.197" cy="478.059" r="3.92872"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 118 (Waga: 39)</title>
+  </circle>
+  <circle cx="1297.81" cy="727.964" r="11.2607"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 119 (Waga: 339)</title>
+  </circle>
+  <circle cx="488.724" cy="360.7" r="3.78208"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 120 (Waga: 33)</title>
+  </circle>
+  <circle cx="428.434" cy="566.883" r="14.2668"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 121 (Waga: 462)</title>
+  </circle>
+  <circle cx="234.677" cy="345.973" r="8.27902"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 122 (Waga: 217)</title>
+  </circle>
+  <circle cx="640.14" cy="805.283" r="8.54786"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 123 (Waga: 228)</title>
+  </circle>
+  <circle cx="1388.47" cy="587.594" r="14.609"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 124 (Waga: 476)</title>
+  </circle>
+  <circle cx="409.105" cy="415.008" r="13.2648"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 125 (Waga: 421)</title>
+  </circle>
+  <circle cx="877.619" cy="275.098" r="9.69654"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 126 (Waga: 275)</title>
+  </circle>
+  <circle cx="1529.3" cy="964.062" r="7.66802"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 127 (Waga: 192)</title>
+  </circle>
+  <circle cx="1456.13" cy="569.185" r="7.37475"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 128 (Waga: 180)</title>
+  </circle>
+  <circle cx="1415.63" cy="810.805" r="4.80855"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 129 (Waga: 75)</title>
+  </circle>
+  <circle cx="1631.94" cy="458.729" r="3.46436"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 130 (Waga: 20)</title>
+  </circle>
+  <circle cx="294.507" cy="528.684" r="11.9939"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 131 (Waga: 369)</title>
+  </circle>
+  <circle cx="882.681" cy="219.41" r="4.78411"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 132 (Waga: 74)</title>
+  </circle>
+  <circle cx="275.638" cy="228.154" r="13.8513"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 133 (Waga: 445)</title>
+  </circle>
+  <circle cx="694.447" cy="351.496" r="3.41548"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 134 (Waga: 18)</title>
+  </circle>
+  <circle cx="166.563" cy="442.161" r="3.09776"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 135 (Waga: 5)</title>
+  </circle>
+  <circle cx="399.44" cy="896.868" r="9.03666"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 136 (Waga: 248)</title>
+  </circle>
+  <circle cx="1619.05" cy="1029.87" r="11.4073"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 137 (Waga: 345)</title>
+  </circle>
+  <circle cx="824.232" cy="573.787" r="8.23014"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 138 (Waga: 215)</title>
+  </circle>
+  <circle cx="812.266" cy="462.871" r="5.95723"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 139 (Waga: 122)</title>
+  </circle>
+  <circle cx="1551.86" cy="265.433" r="8.30346"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 140 (Waga: 218)</title>
+  </circle>
+  <circle cx="1004.64" cy="1040" r="10.0876"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 141 (Waga: 291)</title>
+  </circle>
+  <circle cx="554.537" cy="983.392" r="7.61914"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 142 (Waga: 190)</title>
+  </circle>
+  <circle cx="1282.62" cy="628.554" r="6.88595"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 143 (Waga: 160)</title>
+  </circle>
+  <circle cx="955.858" cy="645.123" r="6.66599"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 144 (Waga: 151)</title>
+  </circle>
+  <circle cx="979.33" cy="254.387" r="13.0204"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 145 (Waga: 411)</title>
+  </circle>
+  <circle cx="1254.09" cy="1002.26" r="3.611"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 146 (Waga: 26)</title>
+  </circle>
+  <circle cx="538.429" cy="209.285" r="5.34623"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 147 (Waga: 97)</title>
+  </circle>
+  <circle cx="1799.46" cy="317.439" r="11.5784"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 148 (Waga: 352)</title>
+  </circle>
+  <circle cx="1598.34" cy="147.614" r="6.22607"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 149 (Waga: 133)</title>
+  </circle>
+  <circle cx="641.981" cy="184.432" r="14.8534"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 150 (Waga: 486)</title>
+  </circle>
+  <circle cx="334.547" cy="733.027" r="10.4053"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 151 (Waga: 304)</title>
+  </circle>
+  <circle cx="1377.89" cy="238.279" r="3.14664"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 152 (Waga: 7)</title>
+  </circle>
+  <circle cx="1289.52" cy="877.999" r="10.0387"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 153 (Waga: 289)</title>
+  </circle>
+  <circle cx="1860.67" cy="403.502" r="4.51527"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 154 (Waga: 63)</title>
+  </circle>
+  <circle cx="1167.56" cy="195.478" r="6.81263"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 155 (Waga: 157)</title>
+  </circle>
+  <circle cx="175.768" cy="742.231" r="13.4847"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 156 (Waga: 430)</title>
+  </circle>
+  <circle cx="816.868" cy="680.56" r="6.93483"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 157 (Waga: 162)</title>
+  </circle>
+  <circle cx="553.617" cy="603.702" r="5.78615"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 158 (Waga: 115)</title>
+  </circle>
+  <circle cx="1286.76" cy="651.106" r="8.4501"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 159 (Waga: 224)</title>
+  </circle>
+  <circle cx="949.415" cy="586.213" r="6.42159"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 160 (Waga: 141)</title>
+  </circle>
+  <circle cx="947.114" cy="152.216" r="5.68839"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 161 (Waga: 111)</title>
+  </circle>
+  <circle cx="454.207" cy="1022.51" r="14.8045"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 162 (Waga: 484)</title>
+  </circle>
+  <circle cx="1455.67" cy="899.63" r="13.167"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 163 (Waga: 417)</title>
+  </circle>
+  <circle cx="340.53" cy="819.09" r="4.24644"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 164 (Waga: 52)</title>
+  </circle>
+  <circle cx="1483.74" cy="985.693" r="12.8982"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 165 (Waga: 406)</title>
+  </circle>
+  <circle cx="1661.39" cy="713.697" r="9.7943"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 166 (Waga: 279)</title>
+  </circle>
+  <circle cx="1164.8" cy="284.302" r="8.47454"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 167 (Waga: 225)</title>
+  </circle>
+  <circle cx="889.585" cy="325.263" r="3.26884"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 168 (Waga: 12)</title>
+  </circle>
+  <circle cx="827.454" cy="206.063" r="6.44603"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 169 (Waga: 142)</title>
+  </circle>
+  <circle cx="1341.07" cy="297.649" r="5.29735"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 170 (Waga: 95)</title>
+  </circle>
+  <circle cx="775.908" cy="750.975" r="14.4134"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 171 (Waga: 468)</title>
+  </circle>
+  <circle cx="1810.05" cy="584.832" r="13.7047"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 172 (Waga: 439)</title>
+  </circle>
+  <circle cx="455.588" cy="789.635" r="5.56619"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 173 (Waga: 106)</title>
+  </circle>
+  <circle cx="1472.7" cy="353.337" r="10.332"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 174 (Waga: 301)</title>
+  </circle>
+  <circle cx="559.6" cy="1011.01" r="8.13238"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 175 (Waga: 211)</title>
+  </circle>
+  <circle cx="1549.09" cy="773.067" r="14.2668"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 176 (Waga: 462)</title>
+  </circle>
+  <circle cx="706.413" cy="859.59" r="13.7047"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 177 (Waga: 439)</title>
+  </circle>
+  <circle cx="353.417" cy="237.359" r="8.01018"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 178 (Waga: 206)</title>
+  </circle>
+  <circle cx="1764.48" cy="552.156" r="8.79226"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 179 (Waga: 238)</title>
+  </circle>
+  <circle cx="1545.87" cy="784.112" r="14.1935"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 180 (Waga: 459)</title>
+  </circle>
+  <circle cx="1515.96" cy="479.44" r="4.49084"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 181 (Waga: 62)</title>
+  </circle>
+  <circle cx="773.147" cy="555.838" r="13.8758"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 182 (Waga: 446)</title>
+  </circle>
+  <circle cx="1546.79" cy="325.263" r="5.98167"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 183 (Waga: 123)</title>
+  </circle>
+  <circle cx="1235.68" cy="214.807" r="8.4501"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 184 (Waga: 224)</title>
+  </circle>
+  <circle cx="1661.39" cy="530.985" r="5.73727"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 185 (Waga: 113)</title>
+  </circle>
+  <circle cx="1351.2" cy="884.902" r="9.62322"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 186 (Waga: 272)</title>
+  </circle>
+  <circle cx="1333.71" cy="1028.95" r="4.88187"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 187 (Waga: 78)</title>
+  </circle>
+  <circle cx="785.573" cy="185.813" r="14.1446"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 188 (Waga: 457)</title>
+  </circle>
+  <circle cx="1135.81" cy="284.302" r="11.0896"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 189 (Waga: 332)</title>
+  </circle>
+  <circle cx="346.053" cy="996.278" r="7.15479"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 190 (Waga: 171)</title>
+  </circle>
+  <circle cx="415.088" cy="347.814" r="11.8961"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 191 (Waga: 365)</title>
+  </circle>
+  <circle cx="607.924" cy="199.62" r="9.10998"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 192 (Waga: 251)</title>
+  </circle>
+  <circle cx="305.553" cy="825.533" r="12.7271"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 193 (Waga: 399)</title>
+  </circle>
+  <circle cx="1620.89" cy="772.146" r="10.0631"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 194 (Waga: 290)</title>
+  </circle>
+  <circle cx="905.233" cy="299.03" r="5.05295"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 195 (Waga: 85)</title>
+  </circle>
+  <circle cx="146.773" cy="877.999" r="7.69246"
+          fill="#555555" stroke="#333333" stroke-width="1">
+    <title>Wezel 196 (Waga: 193)</title>
+  </circle>
+  <circle cx="155.978" cy="662.151" r="11.5051"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 197 (Waga: 349)</title>
+  </circle>
+  <circle cx="242.041" cy="764.782" r="10.0143"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 198 (Waga: 288)</title>
+  </circle>
+  <circle cx="1625.49" cy="258.069" r="9.3055"
+          fill="#FF4500" stroke="#8B0000" stroke-width="1.5">
+    <title>Wezel 199 (Waga: 259)</title>
+  </circle>
+</svg>
