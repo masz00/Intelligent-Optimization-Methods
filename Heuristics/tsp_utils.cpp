@@ -159,7 +159,7 @@ void generate_svg(const string &filename, const vector<int> &cycle, const vector
         } else if (is_selected) {
             fill_c = "#FF4500"; stroke_c = "#8B0000"; line_w = 1.5; // Środek cyklu
         } else {
-            fill_c = "#555555"; stroke_c = "#333333"; line_w = 1.0; // Odrzucony (ukarany)
+            fill_c = "#555555"; stroke_c = "#333333"; line_w = 1.0; 
         }
 
         out << "  <circle cx=\"" << cx << "\" cy=\"" << cy << "\" r=\"" << r << "\"\n"

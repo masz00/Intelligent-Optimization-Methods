@@ -1,0 +1,303 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{amsmath,amssymb}
+\usepackage{algorithm2e}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{float}
+
+\RestyleAlgo{ruled}
+\SetKwInput{KwInput}{Wejście}
+\SetKwInput{KwOutput}{Wyjście}
+\SetKwFor{ForEach}{dla każdego}{wykonaj}{koniec}
+\SetKwFor{While}{dopóki}{wykonaj}{koniec}
+\SetKwIF{If}{ElseIf}{Else}{jeżeli}{to}{w p.p. jeżeli}{w przeciwnym razie}{koniec}
+\SetKw{KwReturn}{zwróć}
+\SetKw{KwBreak}{przerwij}
+\SetKw{KwTrue}{prawda}
+\SetKw{KwFalse}{fałsz}
+
+\title{Zadanie 1. Heurystyki konstrukcyjne\\[0.3em]
+\large Inteligentne Metody Optymalizacji}
+\author{Maciej Szymaniak, 155830 \\ Piotr Szymaczek, 155889}
+
+\begin{document}
+\maketitle
+
+% ============================================================
+\section{Opis zadania}
+% ============================================================
+
+Rozważamy zmodyfikowany problem komiwojażera. Dany jest zbiór $n$~wierzchołków z~symetryczną macierzą odległości $d_{ij}$ oraz zyskiem $p_i$ za odwiedzenie wierzchołka~$i$. Należy wybrać podzbiór wierzchołków i~ułożyć zamkniętą trasę przechodzącą przez wybrane wierzchołki, maksymalizując funkcję celu:
+\[
+    f(\mathcal{C}) = \sum_{i \in \mathcal{C}} p_i \;-\; \sum_{(i,j) \in \mathcal{C}} d_{ij}
+\]
+
+Każdy algorytm składa się z~dwóch faz:
+\begin{itemize}
+    \item \textbf{Faza~I} -- budowa cyklu Hamiltona.
+    \item \textbf{Faza~II} -- iteracyjne usuwanie wierzchołków, dopóki poprawia to wartość funkcji celu.
+\end{itemize}
+
+Kod źródłowy dostępny pod adresem: 
+
+https://github.com/masz00/Intelligent-Optimization-Methods
+
+Rozwiązania zweryfikowane za pomocą SolutionCheckera: \textit{TAK}.
+
+% ============================================================
+\section{Pseudokody algorytmów}
+% ============================================================
+
+% ------------------------------------------------------------
+\subsection{Algorytm losowy}
+% ------------------------------------------------------------
+
+\begin{algorithm}[H]
+\caption{Rozwiązanie losowe}
+\KwInput{wierzchołek startowy $s$, zbiór wierzchołków $\mathit{punkty}$}
+\KwOutput{losowo wygenerowana trasa $\mathcal{C}$}
+\BlankLine
+$\mathit{max\_wierzcholki} \leftarrow \text{rozmiar}(\mathit{punkty})$, \quad $\mathit{wielkosc\_trasy} \leftarrow \text{losowa liczba z }[1, \mathit{max\_wierzcholki}]$\;
+$\mathcal{C} \leftarrow [0, 1, \dots, \mathit{max\_wierzcholki}-1]$\;
+Przetasuj losowo elementy $\mathcal{C}$ od indeksu $1$ do końca\;
+Skróć $\mathcal{C}$ z powrotem do wielkości równej $\mathit{wielkosc\_trasy}$\;
+\KwReturn $\mathcal{C}$\;
+\end{algorithm}
+
+% ------------------------------------------------------------
+\subsection{Nearest Neighbor (NN)}
+% ------------------------------------------------------------
+
+\begin{algorithm}[H]
+\caption{Nearest Neighbor -- Faza I}
+\KwInput{wierzchołek startowy $s$, flaga $\mathit{z\_zyskiem}$, odległości $\mathit{dystans}$, zyski $\mathit{wagi}$}
+\KwOutput{cykl Hamiltona $\mathcal{C}$ na wszystkich wierzchołkach}
+\BlankLine
+$\mathcal{C} \leftarrow [s]$, \quad $\mathit{odwiedzone} \leftarrow \{s\}$\;
+\BlankLine
+\While{$|\mathcal{C}| < n$}{
+    $\mathit{ostatni} \leftarrow \text{ostatni wierzchołek w } \mathcal{C}$, \quad $\mathit{najlepszy\_kandydat} \leftarrow -1$, \quad $\mathit{minimalny\_koszt} \leftarrow \infty$\ ;
+    \BlankLine
+    \ForEach{$v \notin \mathit{odwiedzone}$}{
+        $\mathit{koszt} \leftarrow \mathit{dystans}[\mathit{ostatni}][v]$\;
+        \If{$\mathit{z\_zyskiem}$}{
+            $\mathit{koszt} \leftarrow \mathit{koszt} - \mathit{wagi}[v]$\;
+        }
+        \If{$\mathit{koszt} < \mathit{minimalny\_koszt}$}{
+            $\mathit{minimalny\_koszt} \leftarrow \mathit{koszt}$, \quad $\mathit{najlepszy\_kandydat} \leftarrow v$\;
+        }
+    }
+    Dodaj $\mathit{najlepszy\_kandydat}$ na końiec $\mathcal{C}$ i~do $\mathit{odwiedzone}$\;
+}
+\KwReturn $\mathcal{C}$\;
+\end{algorithm}
+
+\noindent
+Wariant \textbf{NNa}: $\mathit{z\_zyskiem} = \mathit{false}$. \quad
+Wariant \textbf{NNb}: $\mathit{z\_zyskiem} = \mathit{true}$.
+
+% ------------------------------------------------------------
+\subsection{Greedy Cycle (GC)}
+% ------------------------------------------------------------
+
+\begin{algorithm}[H]
+\caption{Greedy Cycle -- Faza I}
+\KwInput{wierzchołek startowy $s$, flaga $\mathit{z\_zyskiem}$, odległości $\mathit{dystans}$, zyski $\mathit{wagi}$}
+\KwOutput{cykl Hamiltona $\mathcal{C}$ na wszystkich wierzchołkach}
+\BlankLine
+$\mathcal{C} \leftarrow [s]$, \quad $\mathit{odwiedzone} \leftarrow \{s\}$, \quad $\mathit{drugi\_wezel} \leftarrow -1$, \quad $\mathit{najmniejszy\_koszt\_startowy} \leftarrow \infty}$\;
+\BlankLine
+\tcp{Dodaj drugi wierzchołek}
+\ForEach{$v \neq s$}{
+    $\mathit{koszt} \leftarrow \mathit{dystans}[s][v]$\;
+    \If{$\mathit{z\_zyskiem}$}{
+        $\mathit{koszt} \leftarrow \mathit{koszt} - \mathit{wagi}[v]$\;
+    }
+    \If{$\mathit{koszt} < \mathit{najmniejszy\_koszt\_startowy}$}{
+        $\mathit{najmniejszy\_koszt\_startowy} \leftarrow \mathit{koszt}$, \quad $\mathit{drugi\_wezel} \leftarrow v$\;
+    }
+}
+Dodaj $\mathit{drugi\_wezel}$ do $\mathcal{C}$ i~do $\mathit{odwiedzone}$\;
+\BlankLine
+\While{$|\mathcal{C}| < n$}{
+    $\mathit{pozycja\_wstawienia} \leftarrow 0$, \quad $\mathit{wybrany\_kandydat} \leftarrow -1$, \quad $\mathit{globalny\_najmniejszy\_koszt} \leftarrow \infty$\;
+    \BlankLine
+    \ForEach{indeks $i$ oraz wierzchołki $a, b$ współdzielące krawędź w $\mathcal{C}$}{
+        \ForEach{$v \notin \mathit{odwiedzone}$}{
+            $\mathit{koszt\_wstawienia} \leftarrow \mathit{dystans}[a][v] + \mathit{dystans}[v][b] - \mathit{dystans}[a][b]$\;
+            \If{$\mathit{z\_zyskiem}$}{
+                $\mathit{koszt\_wstawienia} \leftarrow \mathit{koszt\_wstawienia} - \mathit{wagi}[v]$\;
+            }
+            \If{$\mathit{koszt\_wstawienia} < \mathit{globalny\_najmniejszy\_koszt}$}{
+                $\mathit{globalny\_najmniejszy\_koszt} \leftarrow \mathit{koszt\_wstawienia}$, \quad $\mathit{wybrany\_kandydat} \leftarrow v$, \quad $\mathit{pozycja\_wstawienia} \leftarrow i$\;
+            }
+        }
+    }
+    Wstaw $\mathit{wybrany\_kandydat}$ do $\mathcal{C}$ po wierzchołku z~pozycji $\mathit{pozycja\_wstawienia}$ i~dodaj do $\mathit{odwiedzone}$\;
+}
+\KwReturn $\mathcal{C}$\;
+\end{algorithm}
+
+\noindent
+Wariant \textbf{GCa}: $\mathit{z\_zyskiem} = \mathit{false}$. \quad
+Wariant \textbf{GCb}: $\mathit{z\_zyskiem} = \mathit{true}$.
+
+% ------------------------------------------------------------
+\subsection{Heurystyka 2-żalu (Regret i Ważony Regret)}
+% ------------------------------------------------------------
+
+Zarówno standardowy algorytm 2-Regret, jak i Ważony 2-Regret (WRegret) zrealizowano za pomocą jednego, uogólnionego algorytmu operującego na wagach $w_1$ oraz $w_2$.
+
+\begin{algorithm}[H]
+\caption{Rozbudowa z żalem (Regret i Ważony Regret) -- Faza I}
+\KwInput{wierzchołek startowy $s$, flaga $\mathit{z\_zyskiem}$, odległości $\mathit{dystans}$, zyski $\mathit{wagi}$, wagi $w_1$, $w_2$}
+\KwOutput{cykl Hamiltona $\mathcal{C}$ na wszystkich wierzchołkach}
+\BlankLine
+Zainicjalizuj $\mathcal{C}$ tak samo jak w Greedy Cycle (znajdź drugi wierzchołek i dodaj go do cyklu)\;
+\BlankLine
+\While{$|\mathcal{C}| < n$}{
+    $\mathit{najwyzsza\_ocena} \leftarrow -\infty$, \quad $\mathit{wybrany\_kandydat} \leftarrow -1$, \quad $\mathit{docelowa\_pozycja} \leftarrow -1$\;
+    \BlankLine
+    \ForEach{$v \notin \mathit{odwiedzone}$}{
+        $\mathit{najmniejszy\_koszt} \leftarrow \infty$, \quad $\mathit{drugi\_najmniejszy} \leftarrow \infty$, \quad $\mathit{najlepsza\_pozycja} \leftarrow 0$\;
+        \BlankLine
+        \ForEach{indeks $i$ oraz wierzchołki $a, b$ współdzielące krawędź w $\mathcal{C}$}{
+            $\mathit{koszt} \leftarrow \mathit{dystans}[a][v] + \mathit{dystans}[v][b] - \mathit{dystans}[a][b]$\;
+            \If{$\mathit{z\_zyskiem}$}{ $\mathit{koszt} \leftarrow \mathit{koszt} - \mathit{wagi}[v]$\; }
+            \BlankLine
+            \If{$\mathit{koszt} < \mathit{najmniejszy\_koszt}$}{
+                $\mathit{drugi\_najmniejszy} \leftarrow \mathit{najmniejszy\_koszt}$, \quad $\mathit{najmniejszy\_koszt} \leftarrow \mathit{koszt}$, \quad $\mathit{najlepsza\_pozycja} \leftarrow i$\;
+            }
+            \ElseIf{$\mathit{koszt} < \mathit{drugi\_najmniejszy}$}{
+                $\mathit{drugi\_najmniejszy} \leftarrow \mathit{koszt}$\;
+            }
+        }
+        $\mathit{oceniony\_wynik} \leftarrow w_1 \cdot (\mathit{drugi\_najmniejszy} - \mathit{najmniejszy\_koszt}) - w_2 \cdot \mathit{najmniejszy\_koszt}$\;
+        \BlankLine
+        \If{$\mathit{oceniony\_wynik} > \mathit{najwyzsza\_ocena}$}{
+            $\mathit{najwyzsza\_ocena} \leftarrow \mathit{oceniony\_wynik}$, \quad $\mathit{wybrany\_kandydat} \leftarrow v$, \quad $\mathit{docelowa\_pozycja} \leftarrow \mathit{najlepsza\_pozycja}$\;
+        }
+    }
+    Wstaw $\mathit{wybrany\_kandydat}$ do $\mathcal{C}$ po wierzchołku z~pozycji $\mathit{docelowa\_pozycja}$ i~dodaj do $\mathit{odwiedzone}$\;
+}
+\KwReturn $\mathcal{C}$\;
+\end{algorithm}
+
+\noindent
+Wariant \textbf{2-Regret}: $w_1 = 1,\; w_2 = 0$.
+Wariant \textbf{Ważony 2-Regret}: $w_1 = 1,\; w_2 = 1$.
+Litera 'a' na końcu skrótu nazwy oznacza brak uwzględniania zysków, a litera 'b' - uwzględnienie ich.
+
+% ------------------------------------------------------------
+\subsection{Faza II -- usuwanie wierzchołków}
+% ------------------------------------------------------------
+
+\begin{algorithm}[H]
+\caption{Faza II -- iteracyjne usuwanie wierzchołków poprawiające koszt}
+\KwInput{cykl $\mathcal{C}$, odległości $\mathit{dystans}$, zyski $\mathit{wagi}$}
+\KwOutput{zoptymalizowany cykl $\mathcal{C}$}
+\BlankLine
+$\mathit{znaleziono\_poprawe} \leftarrow \text{PRAWDA}$\;
+\BlankLine
+\While{$\mathit{znaleziono\_poprawe}$ \textbf{\textup{oraz}} $|\mathcal{C}| > 1$}{
+    $\mathit{znaleziono\_poprawe} \leftarrow \text{FA\L{}SZ}$, \quad $\mathit{indeks\_do\_usuniecia} \leftarrow -1$, \quad $\mathit{najwiekszy\_spadek\_kosztu} \leftarrow 0$\;
+    \BlankLine
+    \ForEach{indeks $i$ w cyklu $\mathcal{C}$}{
+        $u \leftarrow \text{wierzchołek z~pozycji } (i-1)\bmod|\mathcal{C}|$\;
+        $v \leftarrow \mathcal{C}[i]$\;
+        $w \leftarrow \text{wierzchołek z~pozycji } (i+1)\bmod|\mathcal{C}|$\;
+        \BlankLine
+        $\mathit{zmiana\_kosztu} \leftarrow \mathit{dystans}[u][w] - \mathit{dystans}[u][v] - \mathit{dystans}[v][w] + \mathit{wagi}[v]$\;
+        \BlankLine
+        \If{$|\mathcal{C}| = 2$}{
+            $\mathit{zmiana\_kosztu} \leftarrow 0 - 2 \cdot \mathit{dystans}[u][v] + \mathit{wagi}[v]$\;
+        }
+        \BlankLine
+        \If{$\mathit{zmiana\_kosztu} < \mathit{najwiekszy\_spadek\_kosztu}$}{
+            $\mathit{najwiekszy\_spadek\_kosztu} \leftarrow \mathit{zmiana\_kosztu}$, \quad $\mathit{indeks\_do\_usuniecia} \leftarrow i$\;
+        }
+    }
+    \If{$\mathit{najwiekszy\_spadek\_kosztu} < 0$}{
+        Usuń wierzchołek z~pozycji $\mathit{indeks\_do\_usuniecia}$ w~$\mathcal{C}$\;
+        $\mathit{znaleziono\_poprawe} \leftarrow \text{PRAWDA}$\;
+    }
+}
+\KwReturn $\mathcal{C}$\;
+\end{algorithm}
+
+\noindent
+Ujemna zmiana kosztu (czyli spadek zsumowanego dystansu będącego obciążeniem, a docelowo wzrost końcowej funkcji celu) oznacza, że usunięcie wierzchołka (zaoszczędzenie dwóch krawędzi, dodanie jednej, stracenie zysku z wierzchołka poprzez wymuszone dodanie jego wagi do spadku w formie kary) jest opłacalne dla ogólnego wyniku.
+
+% ============================================================
+\section{Wyniki eksperymentu obliczeniowego}
+% ============================================================
+
+Każdy algorytm uruchomiono 200 razy (każdy wierzchołek startowy użyty dokładnie raz). Przedstawione wyniki to uśredniona wartość funkcji celu ze wszystkich przebiegów oraz w nawiasach \textit{(minimum -- maksimum)}.
+
+\subsection{Faza I}
+
+\begin{table}[H]
+\centering
+\caption{Funkcja celu po Fazie I}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metoda} & \textbf{TSPA} & \textbf{TSPB} \\
+\midrule
+Random                 & -152884 (-329964 --   -4018) & -141133 (-293035 --     463) \\
+NNa       &   -3758 (  -8436 --    -944) &    9274 (   4704 --   11839) \\
+NNb        &  -12193 (-14403 --  -10537) &   -3015 (  -7072 --    1063) \\
+GCa       &   -1542 (  -2470 --    -912) &    9707 (   8658 --   11224) \\
+GCb      &    -949 (  -1800 --    -141) &   11560 (  10657 --   12164) \\
+RegretGCa  &    2816 (   1185 --    3666) &   15573 (  14276 --   17071) \\
+RegretGCb  &    2796 (   1927 --    3666) &   15580 (  14445 --   16670) \\
+WRegretGCa &     139 (   -544 --    1033) &   11927 (  10413 --   13076) \\
+WRegretGCb &     121 (   -528 --     853) &   12444 (  11472 --   13451) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Faza II}
+
+\begin{table}[H]
+\centering
+\caption{Wartość funkcji celu po Fazie II}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metoda} & \textbf{TSPA} & \textbf{TSPB} \\
+\midrule
+Random                 &   -2003 (-10799 --      622) &   -3107 (-13911 --      611) \\
+NNa       &    2555 ( -2121 --     5971) &   13383 ( 10375 --    16455) \\
+NNb       &    -879 ( -3899 --     2712) &    5719 (  2251 --     9016) \\
+GCa       &    3504 (  1894 --     4368) &   13655 ( 12527 --    15375) \\
+GCb       &    3650 (  2936 --     4506) &   15101 ( 14181 --    16103) \\
+RegretGCa  &    6147 (  4928 --     6934) &   18092 ( 16877 --    19517) \\
+RegretGCb  &    6099 (  4743 --     7084) &   18091 ( 16877 --    19475) \\
+WRegretGCa &    3936 (  3305 --     4768) &   15395 ( 14384 --    16506) \\
+WRegretGCb &    4328 (  3366 --     5253) &   16108 ( 15364 --    16976) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ============================================================
+\section{Wizualizacje najlepszych rozwiązań}
+% ============================================================
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.48\textwidth]{viz_TSPA_RegretGCb.pdf}
+    \includegraphics[width=0.48\textwidth]{viz_TSPB_RegretGCa.pdf}
+    \caption{Najlepsze rozwiązania wg wyników eksperymentu: RegretGCb dla instancji TSPA (po lewej) oraz RegretGCa dla instancji TSPB (po prawej).}
+\end{figure}
+
+\section{Wnioski}
+Przeprowadzony eksperyment wykazuje zdecydowaną dominację heurystyki 2-Regret, która osiągnęła najlepsze wyniki końcowe na obu testowanych instancjach. Kluczową rolę odgrywa tu Faza II, która drastycznie poprawia funkcję celu każdego algorytmu, w tym silnie optymalizując bardzo słabe rozwiązanie losowe. Włączenie zysku do funkcji oceny wyraźnie poprawia jakość podstawowego algorytmu Greedy Cycle, jednak w przypadku najlepszej metody (RegretGC) różnice te niemal całkowicie zacierają się po Fazie II. Dodatkowo eksperyment dowiódł, że standardowy 2-Regret sprawdza się zauważalnie lepiej niż Ważony 2-Regret, a metoda zachłannego cyklu (GC) systematycznie deklasuje algorytm najbliższego sąsiada (NN) pod kątem ostatecznych wartości funkcji celu.
+
+
+\end{document}

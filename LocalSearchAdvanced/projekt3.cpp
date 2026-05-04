@@ -44,7 +44,6 @@ void run_experiment(const string& filename) {
             auto start = high_resolution_clock::now();
             
             if (alg_idx < 3) {
-                // Local search starts from random
                 vector<int> initial;
                 for(int j=0; j<n; j++) initial.push_back(j);
                 std::mt19937 g(i);
@@ -55,7 +54,6 @@ void run_experiment(const string& filename) {
                 else if (alg_idx == 1) tour = solve_steepest_lm(initial, dist, points);
                 else if (alg_idx == 2) tour = solve_steepest_candidate(initial, dist, points, 10);
             } else {
-                // Regret (Zad 1) includes Phase 2 (Removal) as per methodology
                 tour = solve_regret(i % n, true, 1.0, 0.5, dist, points);
                 tour = phase2_remove(tour, dist, points);
             }

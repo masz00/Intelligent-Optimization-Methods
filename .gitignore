@@ -1,0 +1,12 @@
+
+*.exe
+
+instances/
+solution/
+*.txt
+__pycache__/
+.vscode/
+
+Zadanie*
+.tex
+/viz
