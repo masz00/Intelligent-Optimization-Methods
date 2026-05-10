@@ -2,11 +2,13 @@
 *.exe
 
 instances/
-solution/
+*solution*
 *.txt
 __pycache__/
 .vscode/
 
-Zadanie*
+viz/
+*.md
+Zadanie*.pdf
 *.tex
-/viz
+*.xlsx
