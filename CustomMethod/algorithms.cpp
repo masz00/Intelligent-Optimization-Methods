@@ -12,7 +12,6 @@
 
 using namespace std;
 
-// Optional convergence logger (see algorithms.h)
 ofstream* g_convergence_log = nullptr;
 
 struct LSMove {
