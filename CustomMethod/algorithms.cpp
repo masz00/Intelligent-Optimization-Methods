@@ -396,7 +396,7 @@ vector<int> solve_steepest_candidate(vector<int> tour, const vector<vector<int>>
             }
         }
         
-        // REMOVE – pełny przegląd (kandydaty nie pokrywają usunięć)
+        // REMOVE
         for (int i = 0; i < n; i++) {
             int u = tour[i];
             int prev = tour[(i - 1 + n) % n];
@@ -583,7 +583,6 @@ vector<int> solve_lns(const vector<vector<int>> &dist, const vector<PointData> &
     return x;
 }
 
-// ===== Zadanie 6: HAE =====
 
 static int haeEdgeKey(int a, int b, int n_all) {
     if (a > b) swap(a, b);
@@ -612,7 +611,6 @@ static vector<vector<int>> extractSubpaths(
     int n = tour1.size();
     if (n == 0) return {};
 
-    // Find a break point: position where vertex not common OR incoming edge not common
     int start = 0;
     for (int i = 0; i < n; i++) {
         int v  = tour1[i];
@@ -777,10 +775,6 @@ vector<int> solve_greedy_construct(const vector<vector<int>>& dist, const vector
     return phase2_remove(tour, dist, pts);
 }
 
-// ============================================================
-// Zadanie 7: solve_hae_custom — parametric variant for M1..M4
-// ============================================================
-
 static inline vector<int> apply_ls(vector<int> tour,
                                    const vector<vector<int>>& dist,
                                    const vector<PointData>& pts,
@@ -821,7 +815,6 @@ vector<int> solve_hae_custom(const vector<vector<int>>& dist,
     vector<Ind> pop;
     pop.reserve(P);
 
-    // Initial population (unique by objective)
     int attempts = 0;
     while ((int)pop.size() < P && attempts < P * 20) {
         vector<int> t = init_tour(rand() % n_all, dist, pts, cfg);
@@ -961,11 +954,6 @@ vector<int> solve_hae_custom(const vector<vector<int>>& dist,
     return best_tour;
 }
 
-// ============================================================
-// solve_hae_cls — HAE-CLS, final method submitted for Zadanie 7
-// HAE with elite population, recombination Op1, candidate steepest LS.
-// Hardcoded params chosen by grid tuning (see PROGRESS.md, tune_phase2.csv).
-// ============================================================
 vector<int> solve_hae_cls(const vector<vector<int>>& dist,
                              const vector<PointData>& pts,
                              double time_limit_ms,
