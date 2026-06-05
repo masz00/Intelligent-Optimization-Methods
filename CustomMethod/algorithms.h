@@ -4,7 +4,6 @@
 #include "tsp_utils.h"
 
 // Optional convergence logger: when non-null, solve_hae and solve_hae_cls append
-// "time_ms,best_obj\n" each iteration. Disabled by default (nullptr).
 extern std::ofstream* g_convergence_log;
 
 std::vector<int> phase2_remove(std::vector<int> cycle, const std::vector<std::vector<int>> &dist, const std::vector<PointData> &points);
@@ -47,8 +46,8 @@ std::vector<int> solve_lns(const std::vector<std::vector<int>> &dist,
                            int &iters_done,
                            bool use_local_search);
 
-// Zadanie 6: HAE recombination operators
-// Op1: common vertices + edges → subpaths (keep isolated vertices) → join randomly → repair
+
+// Op1: common vertices + edges → subpaths → join randomly → repair
 std::vector<int> recombine_op1(const std::vector<int>& p1, const std::vector<int>& p2,
                                const std::vector<std::vector<int>>& dist, const std::vector<PointData>& pts);
 
@@ -60,17 +59,13 @@ std::vector<int> recombine_op2(const std::vector<int>& p1, const std::vector<int
 std::vector<int> recombine_op3(const std::vector<int>& p1, const std::vector<int>& p2,
                                const std::vector<std::vector<int>>& dist, const std::vector<PointData>& pts);
 
-// HAE main loop: elite population (size 20), steady state, time-limited
-// op: 1/2/3 selects recombination operator; use_ls: apply steepest LS after recombination
 std::vector<int> solve_hae(const std::vector<std::vector<int>>& dist, const std::vector<PointData>& pts,
                            double time_limit_ms, int& iters_done, int op, bool use_ls);
 
 // Greedy construction baseline: random start node → repair_lns → phase2_remove
 std::vector<int> solve_greedy_construct(const std::vector<std::vector<int>>& dist, const std::vector<PointData>& pts);
 
-// ============================================================
-// Zadanie 7: Custom method variants (M1..M4 + parametric)
-// ============================================================
+
 
 struct HaeCustomCfg {
     int op = 1;                     // 1/2/3 recombination operator (when use_alns=false)
@@ -111,8 +106,8 @@ std::vector<int> solve_hae_custom(const std::vector<std::vector<int>>& dist,
                                    const HaeCustomCfg& cfg,
                                    const std::vector<std::vector<int>>* nearest = nullptr);
 
-// Final method (Zadanie 7): HAE-CLS — HAE with candidate LS, op1 recombination,
-// pop_size=15, candidate_k=15. Hardcoded — for sprawozdanie / production use.
+// Final method: HAE-CLS: op1 recombination,
+// pop_size=15, candidate_k=15. Hardcoded
 std::vector<int> solve_hae_cls(const std::vector<std::vector<int>>& dist,
                                 const std::vector<PointData>& pts,
                                 double time_limit_ms,
