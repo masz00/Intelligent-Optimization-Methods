@@ -138,11 +138,11 @@ void generate_svg(const string &filename, const vector<int> &cycle, const vector
         string fill_c = "#D3D3D3"; string stroke_c = "#A9A9A9"; double line_w = 1.0; 
         
         if (i == root_node) {
-            fill_c = "#32CD32"; stroke_c = "#006400"; line_w = 3.0; // Poczatek cyklu
+            fill_c = "#32CD32"; stroke_c = "#006400"; line_w = 3.0;
         } else if (is_selected) {
-            fill_c = "#FF4500"; stroke_c = "#8B0000"; line_w = 1.5; // Środek cyklu
+            fill_c = "#FF4500"; stroke_c = "#8B0000"; line_w = 1.5;
         } else {
-            fill_c = "#555555"; stroke_c = "#333333"; line_w = 1.0; // Odrzucony (ukarany)
+            fill_c = "#555555"; stroke_c = "#333333"; line_w = 1.0;
         }
 
         out << "  <circle cx=\"" << cx << "\" cy=\"" << cy << "\" r=\"" << r << "\"\n"
@@ -155,10 +155,7 @@ void generate_svg(const string &filename, const vector<int> &cycle, const vector
     out.close();
 }
 
-/**
- * Niezależna sprawdzarka (Solution Checker)
- * Weryfikuje czy wynik obliczony przez algorytm zgadza się z surowymi danymi.
- */
+
 bool verify_and_print_solution(const vector<int>& tour, const vector<vector<int>>& dist_matrix, const vector<PointData>& points, long long reported_obj, string label) {
     if (tour.empty()) return false;
 
@@ -175,13 +172,12 @@ bool verify_and_print_solution(const vector<int>& tour, const vector<vector<int>
 
     long long calc_obj = calc_profit - calc_dist;
 
-    // Sprawdzenie zgodności z wynikiem raportowanym przez algorytm
+    
     if (calc_obj != reported_obj) {
         cout << "\n[!!! BŁĄD SPRAWDZARKI: " << label << " !!!]" << endl;
         cout << "Raportowany: " << reported_obj << " | Obliczony: " << calc_obj << endl;
         return false;
     } else {
-        // Opcjonalnie: wypisz szczegóły dla pierwszego uruchomienia
         cout << "[CHECKER OK: " << label << "] Wynik: " << calc_obj << endl;
         return true;
     }
